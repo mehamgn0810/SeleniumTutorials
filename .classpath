@@ -19,5 +19,7 @@
 	<classpathentry kind="lib" path="C:/Users/MEHAVARNAN/Documents/eclipse-workspace/testNGjars/jcommander-1.69.jar"/>
 	<classpathentry kind="lib" path="C:/Users/MEHAVARNAN/Documents/eclipse-workspace/testNGjars/testng-6.9.6-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Users/MEHAVARNAN/Documents/eclipse-workspace/testNGjars/testng-6.11.jar" sourcepath="C:/Users/MEHAVARNAN/Documents/eclipse-workspace/testNGjars/testng-6.9.6-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/MEHAVARNAN/Documents/eclipse-workspace/zxing/core-3.3.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/MEHAVARNAN/Documents/eclipse-workspace/zxing/javase-3.3.3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
