@@ -29,6 +29,11 @@ public class StaleElementReferenceException {
 		
 		driver.navigate().refresh();
 		
+		/*
+		 * Here, we can verify staleness of the element and find again
+		 * or we can directly go ahead and find the element
+		 */
+		
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		boolean stale = wait.until(ExpectedConditions.stalenessOf(username));
 		
