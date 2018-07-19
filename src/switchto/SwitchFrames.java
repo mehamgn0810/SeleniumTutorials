@@ -29,6 +29,9 @@ public class SwitchFrames {
 		//switch by frame number
 		//driver.switchTo().frame(0);
 		
+		//Switch by WebElement
+		//driver.switchTo().frame(WebElement);
+		
 		Thread.sleep(2000);
 		WebElement searchBox = driver.findElement(By.id("search-courses"));
 		searchBox.sendKeys("python");
