@@ -1,4 +1,4 @@
-package qrcode;
+package qrcodebarcode;
 
 import java.awt.image.BufferedImage;
 import java.io.IOException;
@@ -19,6 +19,8 @@ import com.google.zxing.client.j2se.BufferedImageLuminanceSource;
 import com.google.zxing.common.HybridBinarizer;
 
 public class HandleQRCode {
+	
+	//Same steps applicable for Barcode
 	
 	//https://www.the-qrcode-generator.com
 	
@@ -51,7 +53,6 @@ public class HandleQRCode {
 		
 		driver.close();
 		
-
 	}
 
 }
