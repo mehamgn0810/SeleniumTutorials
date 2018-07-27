@@ -13,6 +13,7 @@ public class StaleElementReferenceException {
 
 	public static void main(String[] args) {
 		
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\MEHAVARNAN\\Documents\\eclipse-workspace\\chrome driver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
