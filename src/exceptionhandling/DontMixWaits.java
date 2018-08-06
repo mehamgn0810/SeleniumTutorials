@@ -16,8 +16,6 @@ public class DontMixWaits {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		
-		
-		
 		driver.get("http://www.google.com");
 		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
