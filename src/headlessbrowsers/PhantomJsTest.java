@@ -7,12 +7,14 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.Test;
 
 public class PhantomJsTest {
+	//Ghost driver
 	
 	WebDriver driver;
 	
 	@Test
 	public void testMethod() {
 		
+		//For JavaScript
 		//System.setProperty does not work for PhantomJsDriver. Hence DesiredCapabilities is used
 		//System.setProperty("phantomjs.binary.path", "C:\\Users\\MEHAVARNAN\\Documents\\eclipse-workspace\\drivers\\phantomjs.exe");
 		
